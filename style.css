@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+:root {
+    --text-color-basic: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--text-color-basic);
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 32px;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+input {
+    border: none;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    gap: 22px;
+}
+
+main  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 18px;
+    margin: 12px 0px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.btn-normal {
+    padding: 5px 8px;
+    border-radius: 999px;
+    border: 1px solid black;
+}
+
+.btn-normal:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.btn-normal:active {
+    background-color: #ffffff;
+    color: black;
+}
+
+.forCheck {
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 2px 8px;
+}
+
+.forCheck:hover {
+    border-color: rgb(0, 217, 255);
+}
+
+.INPtext {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 16px;
+}

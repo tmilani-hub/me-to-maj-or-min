@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text to maj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Site pour transformer des minuscule en majuscule ou inversement</h1>
+    <main>
+        <form>
+            <label>
+                <p>tape ou copie ta phrase</p>
+                <input required type="text" name="theSentence" class="INPtext" placeholder="ecris ta phrase">
+            </label>
+            <div class="flex row">
+                <label class="forCheck">
+                    <input type="radio" name="justWhat" class="INPcheck" value="null">
+                    <p>normal</p>
+                </label>
+                <label class="forCheck">
+                    <input type="radio" name="justWhat" class="INPcheck" value="true">
+                    <p>maj a min</p>
+                </label>
+                <label class="forCheck">
+                    <input type="radio" name="justWhat" class="INPcheck" value="false">
+                    <p>min a maj</p>
+                </label>
+            </div>
+            <button class="btn-normal" type="submit">Transform</button>
+        </form>
+        <h2>la transformation apparait ici</h2>
+        <button id="copie" type="button" class="btn-normal">click ici pour copier</button>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
